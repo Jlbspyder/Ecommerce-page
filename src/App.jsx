@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import MobileDropDown from "./components/MobileDropDown";
 import LightBox from "./components/LightBox";
-import './App.css'
+
 
 function App() {
   const basket = useContext(cartContext);

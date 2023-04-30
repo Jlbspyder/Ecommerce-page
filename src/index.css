@@ -30,6 +30,7 @@ main {
   background: #fff;
   width: 50%;
   height: 900px;
+  margin-left: 30px;
   position: absolute;
   top: 0;
   left: 0;
@@ -67,6 +68,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 0 0 50px;
 }
 .flexbox2 {
   display: flex;
@@ -290,8 +292,8 @@ h1 {
   color: #fff;
   position: fixed;
   width: 20px;
-  top: 10%;
-  right: 510px;
+  top: 5%;
+  right: 515px;
   cursor: pointer;
 }
 .close-button {
@@ -326,7 +328,7 @@ h1 {
   position: relative;
   display: inline-flex;
   justify-content: space-around;
-   margin: 460px 60px 0 0;
+   margin: 460px 30px 0 320px;
 } 
 #thumbnail-pix {
   width: 80px;
@@ -339,16 +341,16 @@ h1 {
   height: 30px;
   border-radius: 50%;
   position: fixed;
-  top: 40%;
-  left: 430px;
+  top: 36%;
+  left: 440px;
 }
 .previous {
   width: 15px;
   height: 15px;
   cursor: pointer;
   position: fixed;
-  top: 41%;
-  left: 437px;
+  top: 37%;
+  left: 445px;
   border-radius: 50%;
   z-index: 1;
 }
@@ -360,8 +362,8 @@ h1 {
   height: 15px;
   cursor: pointer;
   position: fixed;
-  top: 40%;
-  left: 835px;
+  top: 36%;
+  left: 845px;
   border-radius: 5px;
   z-index: 1;
 }
@@ -371,8 +373,8 @@ h1 {
   height: 30px;
   border-radius: 50%;
   position: fixed;
-  top: 39%;
-  left: 825px;
+  top: 35%;
+  left: 835px;
 }
 .next:hover {
   color: hsl(26, 100%, 55%)
@@ -488,7 +490,7 @@ button:hover {
     margin-top: 10px;
   }
   .navbar {
-    height: 20px;
+    height: 40px;
     width: 90%;
     margin-left: 10px;
     display: flex;
@@ -510,7 +512,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
+    margin: 20px 0 0 50px;
   }
   .hero {
     margin-right: 20px;
@@ -543,9 +545,10 @@ button:hover {
   }
   .mobile-item-show {
     position: relative;
-    width: 380px;
+    width: 370px;
     height: 300px;
     margin-top: -580px;
+    margin-left: 50px;
     /* margin-left: 90px;
     margin-right: 90px; */
     border-radius: 0;
@@ -560,8 +563,7 @@ button:hover {
     margin-left: 100px;
   }
   h4 {
-    margin-top: -330px;
-    margin-right: 270px;
+    margin: -330px 200px 0 0;
   }
   h2 {
     margin: 20px 0 7px 0;
@@ -572,7 +574,7 @@ button:hover {
     word-wrap: break-word;
     font-size: 2rem;
     text-align: left;
-    margin: 10px 40px 10px 20px;
+    margin: 10px 0 10px 45px;
     font-weight: 700;
   }
   p {
@@ -585,7 +587,7 @@ button:hover {
   }
   .price {
     width: 100px;
-    margin-right: 320px;
+    margin-right: 250px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -634,11 +636,11 @@ button:hover {
     display: block;
     font-size: 0.97rem;
     word-wrap: break-word;
-    margin-right: 50px;
+    margin-right: -20px;
   }
   .basket-container {
     position: absolute;
-    right: 37px;
+    right: 10px;
     top: 60px;
     display: none;
     background: hsl(223, 64%, 98%);
@@ -700,7 +702,7 @@ button:hover {
     border-radius: 50%;
     position: absolute;
     top: 140px;
-    right: 228px;
+    right: 165px;
     z-index: 2;
   }
   .mobile-next:hover {
@@ -784,7 +786,7 @@ button:hover {
 }
 .operation-buttons {
   background: hsl(223, 64%, 98%);
-  margin: 30px 80px 20px 0;
+  margin: 30px 80px 20px 40px;
   width: 300px;
   display: flex;
   align-items: center;
@@ -817,7 +819,7 @@ button:hover {
 .submit {
   color: #fff;
   font-weight: bold;
-  margin: 0 80px 50px 0;
+  margin: 0 80px 50px 40px;
   width: 300px;
   height: 40px;
   border-radius: 10px;
@@ -850,6 +852,6 @@ button:hover {
   margin-top: -50px;
   font-size: 11px; 
   text-align: center;
-  margin-right: 30px;
+  margin-left: 30px;
 }
 }
