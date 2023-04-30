@@ -30,7 +30,7 @@ main {
   background: #fff;
   width: 50%;
   height: 900px;
-  margin-left: 10px;
+  margin-left: 2px;
   position: absolute;
   top: 0;
   left: 0;
@@ -49,15 +49,17 @@ main {
 .mobile-list li {
   color: #000;
   font-weight: bolder;
+  font-size: 1.1rem;
   cursor: pointer;
-  margin: 0 0 -30px 20px ;
+  text-align: left;
+  margin: 0 0 -30px 50px ;
 }
 .mobile-list li:hover {
   color: hsl(26, 100%, 55%);
   border-bottom: none;
 }
 .close {
-  margin: 20px 0 0 20px;
+  margin: 20px 80px 0 0;
   cursor: pointer;
 }
 .close:hover {
