@@ -480,7 +480,7 @@ button:hover {
   }
   .container {
     margin: auto;    
-    width: 380px;
+    width: 390px;
     height: 100vh;
     overflow-x: hidden;
   }
@@ -549,8 +549,6 @@ button:hover {
     height: 300px;
     margin-top: -580px;
     margin-left: 50px;
-    /* margin-left: 90px;
-    margin-right: 90px; */
     border-radius: 0;
   }
   .mobile-product {
@@ -728,21 +726,19 @@ button:hover {
   }
   .basket-id {
     color: gray;
-    margin-top: 10px;
-    font-size: 20px;
+    margin-left: -15px;
+    font-size: 15px;
     opacity: 80%;
   }
   .basket {
-    background: red;
-    width: 330px;
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 10px;
   }
   #delete-basket {
-    margin-right: 100px;
+    margin: 0 0 10px 20px;
   }
   #bold {
     color: #000;
@@ -839,8 +835,8 @@ button:hover {
 }
 .on {
   position: absolute;
-  top: 5px;
-  right: 75px;
+  top: 12px;
+  right: 63px;
 }
 .previous {
   display: none;
