@@ -292,7 +292,7 @@ h1 {
   color: #fff;
   position: fixed;
   width: 20px;
-  top: 5%;
+  top: 10%;
   right: 515px;
   cursor: pointer;
 }
@@ -328,7 +328,7 @@ h1 {
   position: relative;
   display: inline-flex;
   justify-content: space-around;
-   margin: 460px 30px 0 320px;
+   margin: 460px 60px 0 0;
 } 
 #thumbnail-pix {
   width: 80px;
@@ -341,16 +341,16 @@ h1 {
   height: 30px;
   border-radius: 50%;
   position: fixed;
-  top: 36%;
-  left: 440px;
+  top: 40%;
+  left: 430px;
 }
 .previous {
   width: 15px;
   height: 15px;
   cursor: pointer;
   position: fixed;
-  top: 37%;
-  left: 445px;
+  top: 41%;
+  left: 438px;
   border-radius: 50%;
   z-index: 1;
 }
@@ -362,8 +362,8 @@ h1 {
   height: 15px;
   cursor: pointer;
   position: fixed;
-  top: 36%;
-  left: 845px;
+  top: 41%;
+  left: 838px;
   border-radius: 5px;
   z-index: 1;
 }
@@ -373,8 +373,8 @@ h1 {
   height: 30px;
   border-radius: 50%;
   position: fixed;
-  top: 35%;
-  left: 835px;
+  top: 40%;
+  left: 830px;
 }
 .next:hover {
   color: hsl(26, 100%, 55%)
