@@ -15,6 +15,7 @@ function Items({ id, productQuantity}) {
           alt=""
           style={{
             width: "40px",
+            height: "50px",
             borderRadius: "4px",
             marginTop: "8px",
             marginLeft: "10px",
@@ -36,9 +37,8 @@ function Items({ id, productQuantity}) {
           style={{
             width: "15px",
             height: "20px",
-            marginTop: "18px",
+            marginTop: "12px",
             marginRight: "10px",
-            // paddingRight: "5px",
             cursor: "pointer",
           }}
         ></img>
