@@ -17,7 +17,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/ecommerce-product-page-DRc0s954_6](https://www.frontendmentor.io/solutions/ecommerce-product-page-DRc0s954_6)
 - Live Site URL: [https://joyful-cupcake-01c9a5.netlify.app/](https://joyful-cupcake-01c9a5.netlify.app/)
 
 
